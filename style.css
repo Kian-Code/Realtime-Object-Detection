@@ -1,0 +1,44 @@
+
+.Heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+font-family: 'Hanalei Fill', cursive;
+}
+
+#Status , #Object_Number
+{
+font-size: 18px;
+font-family: 'Josefin Sans', sans-serif;
+color: whitesmoke;
+background-color: darkslateblue;
+border-radius: 20px;
+border: solid 2px darkcyan;
+box-shadow: 5px 5px 18px gray;
+
+}
+
+body{
+    background-position: center;
+    background-size: cover;
+}
+
+canvas{
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+    border: dashed 3px black;
+    animation-name: Canvas_Animation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    margin-top: 30px;
+} 
+
+@keyframes Canvas_Animation{
+  0%{box-shadow:10px 10px 10px darkslategray ;}
+  25%{box-shadow:10px 10px 10px green ;}
+  50%{box-shadow:10px 10px 10px lime ;}
+  75%{box-shadow:10px 10px 10px greenyellow ;}
+  100%{box-shadow:10px 10px 10px red ;}
+}
